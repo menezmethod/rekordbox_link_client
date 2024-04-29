@@ -1,0 +1,5 @@
+pyrekordbox
+pytesseract
+pyautogui
+pygetwindow
+Pillow
