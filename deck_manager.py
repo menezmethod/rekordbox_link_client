@@ -74,7 +74,7 @@ def process_deck_info(deck_number, other_deck_number, deck_event, other_deck_eve
                 previous_track_name = track_name
 
                 # Fetch track info from database
-                track_info = get_track_info_from_db(track_name[:10].strip(), dbt)
+                track_info = get_track_info_from_db(track_name, dbt)
                 if track_info:
                     bpm = track_info["bpm"]
                     key = track_info["key"]

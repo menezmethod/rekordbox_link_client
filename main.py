@@ -8,6 +8,7 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+
 def main():
     open_rekordbox()
 
@@ -28,6 +29,7 @@ def main():
 
     deck1_thread.join()
     deck2_thread.join()
+
 
 if __name__ == "__main__":
     main()
