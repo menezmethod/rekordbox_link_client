@@ -113,12 +113,11 @@ def find_similar_track(track_list, current_track_info, current_track_clean=True)
 
     def filter_tracks(bpm_tolerance, strict_genre=True):
         bpm = current_track_info["bpm"]
-        # Define BPM variations
         bpm_variations = [
             (bpm, strict_genre),
             (bpm * 0.5, strict_genre),
             (bpm * 2, strict_genre),
-        ]  # (BPM value, strict_genre_flag)
+        ]
 
         filtered_tracks = [
             track
