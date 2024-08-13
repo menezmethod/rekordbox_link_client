@@ -19,7 +19,7 @@ The Rekordbox Link Client is a Python script that automates the process of findi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/rekordbox-link-client.git
+   git clone https://github.com/menezmethod/rekordbox-link-client.git
    ```
 
 2. Navigate to the project directory:
